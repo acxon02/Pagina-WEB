@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ciencia de Datos y Pandas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d1117;
+      color: #ffffff;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .tarjetas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      border-radius: 16px;
+      padding: 20px;
+      width: 100%;
+      max-width: 350px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card h3 {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #f4f4f4;
+    }
+
+    .btn {
+      margin-top: 15px;
+      display: inline-block;
+      background-color: #000;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .seccion-grande {
+      background: linear-gradient(135deg, #74ebd5, #9face6);
+      padding: 40px;
+      border-radius: 16px;
+      margin-top: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      color: #000;
+    }
+
+    .seccion-texto {
+      flex: 1;
+      padding-right: 20px;
+      min-width: 280px;
+    }
+
+    .seccion-img {
+      flex: 1;
+      text-align: center;
+      min-width: 280px;
+    }
+
+    .seccion-img img {
+      max-width: 100%;
+      border-radius: 16px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      color: #bbb;
+      padding: 30px;
+      font-size: 0.8rem;
+    }
+
+    @media (max-width: 768px) {
+      .seccion-grande {
+        flex-direction: column;
+      }
+
+      .seccion-texto {
+        padding-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1 style="text-align: center; margin-bottom: 40px;">Ciencia de Datos y Pandas</h1>
+
+    <div class="tarjetas">
+      
+      <div class="card">
+        <h3>Ciencia de Datos</h3>
+        <p>La Ciencia de Datos permite tomar decisiones basadas en datos, encontrar patrones y mejorar procesos en muchos sectores.</p>
+        <p><strong>Lenguajes usados:</strong> Python, R, SQL, Julia.</p>
+        <a href="#" class="btn">Ver más</a>
+      </div>
+
+      
+      <div class="card">
+        <h3>Pandas - ¿Qué es?</h3>
+        <p>Pandas es una biblioteca de Python para manipular, limpiar y analizar datos en tablas. Ideal para científicos de datos.</p>
+        <a href="#" class="btn">Ver más</a>
+      </div>
+
+      
+      <div class="card">
+        <h3>Ventajas de Pandas</h3>
+        <p>Fácil de usar, eficiente con grandes volúmenes de datos, compatible con otras librerías como NumPy y Scikit-learn.</p>
+        <a href="#" class="btn">Ver más</a>
+      </div>
+    </div>
+
+    <div class="seccion-grande">
+      <div class="seccion-texto">
+        <h2>¿Cómo usan Pandas los científicos de datos?</h2>
+        <p>Utilizan Pandas para explorar y preparar datos, detectar errores, transformar columnas, agrupar información y generar reportes eficientes.</p>
+        <ul>
+          <li>Exploración y limpieza de datos</li>
+          <li>Transformaciones y agrupamientos</li>
+          <li>Integración con gráficos y modelos</li>
+        </ul>
+      </div>
+      <div class="seccion-img">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" alt="Logo de Pandas">
+      </div>
+    </div>
+
+    <footer>
+      Página desarrollada con fines educativos – Ciencia de Datos © 2025
+    </footer>
+  </div>
+
+</body>
+</html>
+
+
+
